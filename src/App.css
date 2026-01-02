@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme{
+ --color-Range: #FE6100; 
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  overscroll-behavior-x: none;
+  touch-action: pan-y;
+}
