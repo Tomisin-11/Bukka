@@ -73,11 +73,11 @@ const MenuSection = () => {
         </div>
       </div>
 
-      <div className="max-w-4x1 mt-20   overflow-none   grid grid-cols-1 lg:grid-cols-3 gap-0 ">
+      <div className="max-w-4x1 mt-20   overflow-none   grid grid-cols-1 lg:grid-cols-3 gap-10 ">
 
         {/* LEFT — Opening Hours */}
-        <div className="bg-white   rounded-2xl p-10 shadow-sm">
-          <div className="border   rounded-xl p-8 text-gray-600 text- space-y-10">
+        <div className="bg-white   rounded-2xl p-0 md:p-8 shadow-sm">
+          <div className="border mt-5   rounded-xl p-8 text-gray-600 text- space-y-10">
             {[
               ["Monday", "10.00 am to 10.00 pm"],
               ["Tuesday", "10.00 am to 10.00 pm"],
@@ -99,7 +99,7 @@ const MenuSection = () => {
         </div>
 
         {/* RIGHT — Menu Items */}
-        <div className="lg:col-span-2 ml-5 mt-10 space-y-10">
+        <div className="lg:col-span-2 ml- mt-10 space-y-10">
           {menuItems.map((item, index) => (
             <div key={index} className="space-y-6">
               <div className="flex gap-6">
